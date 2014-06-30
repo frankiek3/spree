@@ -42,9 +42,9 @@ The fastest way to get started is by using the spree command line tool
 available in the spree gem which will add Spree to an existing Rails application.
 
 ```shell
-gem install rails -v 4.0.5
+gem install rails -v 4.1.1
 gem install spree
-rails _4.0.5_ new my_store
+rails _4.1.1_ new my_store
 spree install my_store
 ```
 
@@ -202,7 +202,7 @@ are, however, a few tricks to speeding up performance in development mode.
 You can precompile your assets as follows:
 
 ```shell
-bundle exec rake assets:precompile:nondigest
+bundle exec rake assets:precompile
 ```
 
 If you want to remove precompiled assets (recommended before you commit to Git
